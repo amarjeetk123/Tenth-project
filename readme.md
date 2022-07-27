@@ -6,7 +6,7 @@
  ![](https://img.shields.io/badge/HTML-5-orange)
  ![](https://img.shields.io/badge/CSS-3-blue)
 
- My Live Deployed Website Link :- [Click here !](https://project-11-creative-hub.netlify.app/)
+ My Live Deployed Website Link :- [Click here !](https://project-10-home-interior-template.netlify.app/)
 
  
  ![](./web-page.png)
