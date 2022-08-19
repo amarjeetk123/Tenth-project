@@ -1,6 +1,7 @@
 # Project-10-  Home Interior Template 
  ## Hey there ,  I am Amarjeet 
- I have build a template of HTML and CSS project using my core css skills 
+ I have build a template of HTML and CSS project using my core css skills .
+ My web page is responsive.
  
  ![](https://img.shields.io/badge/Project-10-green)
  ![](https://img.shields.io/badge/HTML-5-orange)
@@ -14,6 +15,7 @@
  ## This project takes almost 4 hours .
 
  ## What I have learned in this project .
+ - For making a responsive website I used flex box. 
  - A little bit about icons.
  - how blur our backgound image or color by the help of linear ingrediant.
  - Hover Effets .
