@@ -49,6 +49,7 @@ nav{
     display: flex; 
 }
 .three-line{
+    cursor: pointer;
     display: none;
 }
 .list-items{
@@ -78,6 +79,7 @@ nav{
 .contact img{
     position: absolute;   
    margin: -10px 0px 0px -10px;
+   
 }
 .details h1{
     font-size: 25px;
@@ -112,6 +114,7 @@ nav{
     font-weight: 800; 
 }
 .right1{
+   
     position: relative;
 }
 .con1{
@@ -240,15 +243,16 @@ a{
 
 
 
-
+/* code for responsive navigation bar  */
 @media screen and (max-width:1160px) {
        .list{
+        
         position: fixed;
         width: 100%;
         height: 100%;
-        top: 14%;
+        top: 15%;
         flex-direction: column;
-        background:linear-gradient(#03203C 50% , #03203C 50% );
+        background:linear-gradient(#192f47 50% , #192f47 50% );
         align-items: center;
       padding-top: 20px;
         left: -100%;
@@ -291,16 +295,25 @@ a{
 }
 
 @media screen and (max-width:870px) {
-    nav{
+    /* nav{
         background:linear-gradient(rgba(0,0,0,0.8) 50% , rgba(0,0,0,0.8) 50% );
+    } */
+    .three-line , .logo{
+        color: #000000;
+    
+    }
+    .logo h1 , .logo h2{
+        font-weight:800; 
     }
     .middle{
         flex-direction: column;
         margin-top:150px;
     }
-    .middle .left{
-        width: 90%;
-        
+    .middle .left{  
+        width: 90%;    
+    }
+    .middle .left h1{
+    font-size: 50px;  
     }
     .right1{
         margin-top: 30px;
@@ -360,3 +373,12 @@ a{
    
 }
 
+@media screen AND (max-width:470px) {
+    .contact{
+        display: none;
+        /* opacity: 0; */
+    }
+    .middle .left h1{
+        font-size: 40px;  
+        }
+}
